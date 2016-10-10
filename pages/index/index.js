@@ -7,8 +7,10 @@ Page({
     userInfo: {},
     defaultSize: 'default',
     disabled: false,
-    iconType:'info_circle'
-  },
+    iconType:'info_circle',
+    primarySize:'default',
+    plain:'true'
+     },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

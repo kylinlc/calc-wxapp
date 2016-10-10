@@ -5,16 +5,11 @@
     
   </view>
   <view>
-    <text class="userinfo-nickname">{{userInfo.nickName}}（Dunizb）</text>
+    <text class="userinfo-nickname">{{userInfo.nickName}}（calc）</text>
   </view>
   <view class="usermotto">
     <!--<text class="user-motto">{{motto}}</text>-->
-    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+    <button type="warn" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toCalc"> {{motto}} </button>
-  </view>
-  <view>
-    <navigator url="view" class="github" hover-class="navigator-hover">
-      <icon type="{{iconType}}" class="icon" size="20"/>GitHub
-    </navigator>
-  </view>
+  </view>  
 </view>
